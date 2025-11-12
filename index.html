@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing cloud architecture and development expertise across GCP, Azure, and AWS">
+    <title>Cloud Architect & Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#articles" class="nav-link">Articles</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Cloud Architect & Developer</h1>
+                <p class="hero-subtitle">Designing scalable solutions across GCP, Azure, and AWS for Healthcare, Power-Utilities, and Enterprise sectors</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://medium.com/@adityareddych" target="_blank" class="social-link" aria-label="Medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/aditya-architect" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Aditya4ever" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">Explore my work across different sectors and cloud platforms</p>
+            
+            <!-- Cloud Platform Filter -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="gcp">
+                    <i class="fab fa-google"></i> GCP
+                </button>
+                <button class="filter-btn" data-filter="azure">
+                    <i class="fab fa-microsoft"></i> Azure
+                </button>
+                <button class="filter-btn" data-filter="aws">
+                    <i class="fab fa-aws"></i> AWS
+                </button>
+            </div>
+
+            <!-- Healthcare Sector -->
+            <div class="sector-group">
+                <h3 class="sector-title"><i class="fas fa-heartbeat"></i> Healthcare</h3>
+                <div class="projects-grid" id="healthcare-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Power-Utilities Sector -->
+            <div class="sector-group">
+                <h3 class="sector-title"><i class="fas fa-bolt"></i> Power-Utilities</h3>
+                <div class="projects-grid" id="utilities-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Financial Services Sector -->
+            <div class="sector-group">
+                <h3 class="sector-title"><i class="fas fa-chart-line"></i> Financial Services</h3>
+                <div class="projects-grid" id="finance-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Retail Sector -->
+            <div class="sector-group">
+                <h3 class="sector-title"><i class="fas fa-shopping-cart"></i> Retail</h3>
+                <div class="projects-grid" id="retail-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Manufacturing Sector -->
+            <div class="sector-group">
+                <h3 class="sector-title"><i class="fas fa-industry"></i> Manufacturing</h3>
+                <div class="projects-grid" id="manufacturing-projects">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles">
+        <div class="container">
+            <h2 class="section-title">Articles & Insights</h2>
+            <p class="section-subtitle">Thoughts on cloud architecture, development, and best practices</p>
+            
+            <div class="articles-grid" id="articles-grid">
+                <!-- Articles will be loaded dynamically -->
+            </div>
+
+            <div class="articles-cta">
+                <a href="https://medium.com/@adityareddych" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-medium"></i> Read More on Medium
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">Passionate Cloud Architect and Developer specializing in designing and implementing scalable, secure, and cost-effective cloud solutions.</p>
+                    <p>With extensive experience across Google Cloud Platform (GCP), Microsoft Azure, and Amazon Web Services (AWS), I help organizations transform their infrastructure and build modern, cloud-native applications.</p>
+                    <p>My expertise spans multiple industries including Healthcare, Power-Utilities, Financial Services, Retail, and Manufacturing, delivering solutions that drive business value and operational excellence.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-google fa-3x"></i>
+                        <h4>Google Cloud Platform</h4>
+                        <p>Compute Engine, GKE, Cloud Functions, BigQuery, Cloud Storage</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-microsoft fa-3x"></i>
+                        <h4>Microsoft Azure</h4>
+                        <p>Azure VMs, AKS, Azure Functions, Cosmos DB, Blob Storage</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-aws fa-3x"></i>
+                        <h4>Amazon Web Services</h4>
+                        <p>EC2, EKS, Lambda, RDS, S3, CloudFormation</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code fa-3x"></i>
+                        <h4>Development</h4>
+                        <p>Python, Java, Node.js, Terraform, Docker, Kubernetes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss your cloud architecture needs</p>
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="https://linkedin.com/in/aditya-architect" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <h4>LinkedIn</h4>
+                        <p>Connect with me professionally</p>
+                    </a>
+                    <a href="https://medium.com/@adityareddych" target="_blank" class="contact-card">
+                        <i class="fab fa-medium fa-2x"></i>
+                        <h4>Medium</h4>
+                        <p>Read my technical articles</p>
+                    </a>
+                    <a href="https://github.com/Aditya4ever" target="_blank" class="contact-card">
+                        <i class="fab fa-github fa-2x"></i>
+                        <h4>GitHub</h4>
+                        <p>Check out my projects</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cloud Architect & Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
